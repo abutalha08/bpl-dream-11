@@ -4,8 +4,8 @@ import logoImg from "../../assets/logo.png"
 
 const Navbar = () => {
     return (
-        <div className='max-w-full bg-base-200 shadow-sm'>
-            <div className='w-10/12 mx-auto'>
+        <div className='max-w-full bg-base-200 '>
+            <div className='max-w-10/12 mx-auto'>
 
            <div className="navbar">
   <div className="navbar-start">
