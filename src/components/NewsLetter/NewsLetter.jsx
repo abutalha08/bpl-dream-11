@@ -9,7 +9,7 @@ const NewsLetter = () => {
       <div className="relative w-[800px] rounded-2xl border border-gray-300 bg-white/60 backdrop-blur-md shadow-lg p-10">
         
         {/* Gradient overlay */}
-        <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-blue-200 via-gray-100 to-orange-200 opacity-70"></div>
+        <div className="absolute inset-0 rounded-2xl bg-linear-to-r from-blue-200 via-gray-100 to-orange-200 opacity-70"></div>
 
         {/* Content */}
         <div className="relative z-10 text-center">

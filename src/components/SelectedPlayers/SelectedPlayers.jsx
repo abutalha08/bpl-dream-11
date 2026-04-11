@@ -15,7 +15,7 @@ const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coins, setCoins 
 
     return (
 
-        <div>
+        <div className='mb-64'>
 
             {selectedPlayers.length === 0 ? (<div className='space-y-4 '>
                 <p className="text-center text-gray-500 font-bold text-4xl">
