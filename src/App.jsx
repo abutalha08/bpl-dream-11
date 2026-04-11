@@ -4,6 +4,7 @@ import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import Players from './components/Players/Players';
+import NewsLetter from './components/NewsLetter/NewsLetter';
 
 
 const fetchPlayer = async () =>{
@@ -27,6 +28,8 @@ function App() {
     <Players playersPromise = {playersPromise} coins = {coins} setCoins = {setCoins} ></Players>
 
     </Suspense>
+
+    <NewsLetter></NewsLetter>
     </>
   )
 }

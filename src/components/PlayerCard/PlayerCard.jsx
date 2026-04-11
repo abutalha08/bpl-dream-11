@@ -8,7 +8,7 @@ const PlayerCard = ({ player, coins, setCoins, selectedPlayers, setSelectedPlaye
     const handleChoosePlayer = () => {
 
         let newCoins = coins - player.price;
-        if (newCoins > 0) {
+        if (newCoins >= 0) {
             setCoins(newCoins);
         } else {
             toast.error("Not enough coins to purchase this player");
@@ -21,7 +21,7 @@ const PlayerCard = ({ player, coins, setCoins, selectedPlayers, setSelectedPlaye
 
     }
     return (
-        <div className="card bg-base-100 w-96 shadow-sm">
+        <div className="card bg-base-100 w-96 shadow-sm transition-transform duration-300 hover:scale-105 hover:shadow-lg">
             <figure className="p-4">
                 <img
                     src={player.playerImg}
