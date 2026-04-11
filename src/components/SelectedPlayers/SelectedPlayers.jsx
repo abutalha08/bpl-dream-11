@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaTrash } from 'react-icons/fa';
+import { toast } from 'react-toastify';
 
 const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coins, setCoins }) => {
     console.log(selectedPlayers);
@@ -10,6 +11,8 @@ const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coins, setCoins 
         setSelectedPlayers(filteredPlayers);
 
         setCoins(coins + player.price);
+
+        toast.warn(`${player.playerName} is removed`);
 
     }
 
