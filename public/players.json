@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "playerName": "Virat Kohli",
     "playerCountry": "India",
     "playerType": "Batsman",
@@ -10,6 +11,7 @@
     "playerImg": "https://i.ibb.co.com/7J7cyLWh/virat-kohli.jpg"
   },
   {
+    "id": 2,
     "playerName": "Babar Azam",
     "playerCountry": "Pakistan",
     "playerType": "Batsman",
@@ -20,6 +22,7 @@
     "playerImg": "https://i.ibb.co.com/QjkLhKNg/Babar-Azam.jpg"
   },
   {
+    "id": 3,
     "playerName": "Ben Stokes",
     "playerCountry": "England",
     "playerType": "All-Rounder",
@@ -30,6 +33,7 @@
     "playerImg": "https://i.ibb.co.com/RZXJyw5/Ben-Stokes.jpg"
   },
   {
+    "id": 4,
     "playerName": "Kane Williamson",
     "playerCountry": "New Zealand",
     "playerType": "Batsman",
@@ -40,6 +44,7 @@
     "playerImg": "https://i.ibb.co.com/Cst8wV2P/Kane-Williamson.jpg"
   },
   {
+    "id": 5,
     "playerName": "Rashid Khan",
     "playerCountry": "Afghanistan",
     "playerType": "Bowler",
@@ -50,6 +55,7 @@
     "playerImg": "https://i.ibb.co.com/Kj2GrVtZ/Rashid-Khan.jpg"
   },
   {
+    "id": 6,
     "playerName": "Jos Buttler",
     "playerCountry": "England",
     "playerType": "Wicketkeeper-Batsman",
@@ -60,6 +66,7 @@
     "playerImg": "https://i.ibb.co.com/hRnrJ88G/Jos-Buttler.jpg"
   },
   {
+    "id": 7,
     "playerName": "Steve Smith",
     "playerCountry": "Australia",
     "playerType": "Batsman",
@@ -70,6 +77,7 @@
     "playerImg": "https://i.ibb.co.com/SwbzbjyZ/Steve-Smith.jpg"
   },
   {
+    "id": 8,
     "playerName": "David Warner",
     "playerCountry": "Australia",
     "playerType": "Batsman",
@@ -80,6 +88,7 @@
     "playerImg": "https://i.ibb.co.com/67sNdrPX/David-Warner.jpg"
   },
   {
+    "id": 9,
     "playerName": "Shakib Al Hasan",
     "playerCountry": "Bangladesh",
     "playerType": "All-Rounder",
@@ -90,6 +99,7 @@
     "playerImg": "https://i.ibb.co.com/yvZHL0j/Shakib-Al-Hasan.jpg"
   },
   {
+    "id": 10,
     "playerName": "AB de Villiers",
     "playerCountry": "South Africa",
     "playerType": "Batsman",
@@ -100,6 +110,7 @@
     "playerImg": "https://i.ibb.co.com/21FHKJdm/AB-de-Villiers.jpg"
   },
   {
+    "id": 11,
     "playerName": "Chris Gayle",
     "playerCountry": "West Indies",
     "playerType": "Batsman",
@@ -110,6 +121,7 @@
     "playerImg": "https://i.ibb.co.com/hR9nV8V4/Chris-Gayle.jpg"
   },
   {
+    "id": 12,
     "playerName": "Mitchell Starc",
     "playerCountry": "Australia",
     "playerType": "Bowler",
@@ -119,5 +131,4 @@
     "price": 1700,
     "playerImg": "https://i.ibb.co.com/S44wVX2S/Mitchell-Starc.jpg"
   }
-
 ]
