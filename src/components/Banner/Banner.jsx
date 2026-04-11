@@ -19,7 +19,7 @@ const Banner = () => {
                     <img src={bannerLogo} alt="" className='mx-auto' />
                     <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h2>
                     <p className='text-[18px] md:text-[24px] font-medium text-base-200'>Beyond Boundaries Beyond Limits</p>
-                    <button className="btn btn-accent">Claim Free Credit</button>
+                    <button className="btn bg-[#E7FE29]">Claim Free Credit</button>
                    </div>
                 </div>
             </div>
