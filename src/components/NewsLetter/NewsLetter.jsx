@@ -14,11 +14,11 @@ const NewsLetter = () => {
         {/* Content */}
         <div className="relative z-10 text-center">
           
-          <h2 className="text-2xl font-bold mb-2">
+          <h2 className="text-2xl font-bold mb-2 text-black">
             Subscribe to our Newsletter
           </h2>
 
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-800 mb-6">
             Get the latest updates and news right in your inbox!
           </p>
 
@@ -28,10 +28,10 @@ const NewsLetter = () => {
             <input
               type="email"
               placeholder="Enter your email"
-              className="px-4 py-2 w-80 rounded-lg border border-gray-300 outline-none focus:ring-2 focus:ring-blue-300"
+              className="px-4 py-2 w-80 text-gray-800 rounded-lg border border-gray-300 outline-none focus:ring-2 focus:ring-blue-300"
             />
 
-            <button className="px-5 py-2 rounded-lg text-white font-semibold bg-linear-to-r from-pink-400 to-yellow-400 hover:scale-105 transition">
+            <button className="px-5 py-2 rounded-lg text-black font-semibold bg-linear-to-r from-pink-400 to-yellow-400 hover:scale-105 transition">
               Subscribe
             </button>
 

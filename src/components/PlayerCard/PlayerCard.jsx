@@ -21,12 +21,12 @@ const PlayerCard = ({ player, coins, setCoins, selectedPlayers, setSelectedPlaye
 
     }
     return (
-        <div className="card bg-base-100 w-96 shadow-sm transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+        <div className="card bg-base-100 w-full max-w-sm shadow-sm transition-transform duration-300 hover:scale-105 hover:shadow-lg">
             <figure className="p-4">
                 <img
                     src={player.playerImg}
                     alt={player.playerName}
-                    className=" w-85 h-65 rounded-xl"
+                    className=" w-full h-64 object-cover rounded-xl"
                 />
             </figure>
             <div className="card-body">
