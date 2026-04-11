@@ -5,9 +5,9 @@ import NewsLetter from "../NewsLetter/NewsLetter";
 
 const Footer = () => {
   return (
-    <footer className="relative bg-[#050816] text-white pt-56">
+    <footer className=" relative bg-[#050816] text-white pt-56">
 
-        <div className="absolute left-1/2 -top-25 -translate-x-1/2 z-20">
+        <div className="w-[90vw] max-w-7xl mx-auto absolute left-1/2 -top-25 -translate-x-1/2 z-20">
         <NewsLetter />
       </div>
 
